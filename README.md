@@ -17,6 +17,26 @@ block the loop util operation   does not complete.
     
     # async can used through promisify 
 
+# Libuv and Event Loop 
+    - Event Loop
+    - thread pool
+    - Async I/O DNS LookUp , File , Crypto , compression(zlib)
+
+
+# Event Loop Phase 
+- Timer Phase (setTimeOut, setInterval)
+- pending callback phase
+- Idel /prepare phase 
+- poll phase
+- check phase (set immidiate)
+- close
+
+# queue priorities - 
+- nextClick queue
+- promise queue
+- timer queue 
+- poll queue
+- check queue
 
 
 
