@@ -1,0 +1,24 @@
+{
+  "name": "js-practice",
+  "version": "1.0.0",
+  "description": "node js practice",
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "homepage": "https://github.com/singhragni/node-js-practice#readme",
+  "bugs": {
+    "url": "https://github.com/singhragni/node-js-practice/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singhragni/node-js-practice.git"
+  },
+  "license": "ISC",
+  "author": "ragini",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
