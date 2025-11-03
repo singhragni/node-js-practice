@@ -39,4 +39,23 @@ block the loop util operation   does not complete.
 - check queue
 
 
+# morgan 
+-- dev debugger 
+
+# Promise - 
+Without promise - 
+we  handle via call back functions .
+that goes to callback hell and you do not have control also 
+
+
+
+# Solution is Promise  - 
+- Create Promise 
+- handle the resolve and reject 
+- can handle through then and catch or maker function async and handle via try and catch - 
+
+
+
+
+
 

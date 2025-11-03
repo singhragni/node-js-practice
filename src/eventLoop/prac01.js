@@ -35,3 +35,26 @@ function test() {
 let x = test();
 console.log(x());
 console.log(x());
+
+
+
+console.log("Try programiz.pro");
+
+
+let x2 = [];
+
+for (let i = 0; i < 3; i++) {
+  setTimeout(() => console.log(i), 0);
+}
+
+
+
+function someFunc(a,...b){
+  //You code goes here
+  console.log(a)
+  console.log(b)
+  console.log(c)
+  return;
+  }
+  
+  someFunc(1,2,3,4)

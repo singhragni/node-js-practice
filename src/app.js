@@ -2,7 +2,14 @@ import express from "express";
 import  {add,divide} from './utill/index.js';
 import  file from './files/syncFile/f1.js'
 import file1 from './files/asyncFiles/f1.js'
+import morgan from 'morgan'
+import dotenv from 'dotenv';
+dotenv.config();
 const app = express();
+
+if (process.env.ENVIRONMENT === 'dev') {
+    app.use(morgan('dev'));
+  }
 
 // file()
 await file1()
@@ -27,6 +34,7 @@ app.use((err,req,res,next) =>{
             error: err.message
         })
 })
+
 
 const PORT = 3000;
 
